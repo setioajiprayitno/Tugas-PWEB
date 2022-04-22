@@ -1,0 +1,181 @@
+body {
+    background-color : lightyellow;
+    text-align : center;
+    font-family :Arial, Helvetica, sans-serif;
+    font-size : 12px;
+}
+
+#layout {
+        background : white;
+        width : 980px;
+        margin : auto;
+        text-align : left;
+        padding : 2px;
+}
+#border {
+        width : 100%;
+        height : 130px;
+        background-color :red;
+        position : relative; 
+}
+.header {
+        width : 100%;
+        height : 130px;
+}
+
+/*pengaturan menu*/
+#menu{
+    width : 100%;
+    height : 40px;
+    background-color : lightseagreen;
+    position : relative;
+}
+#menu ul{
+    margin : 0;
+    padding : 0;
+    list-style :none;
+}
+
+#menu ul li{
+    float : left; 
+}
+
+#menu ul li a{
+    float : left;
+    color :white;
+    padding : 12px 20px;
+    text-decoration : none;
+    background : lightseagreen;
+    border-left : 1px solid grey;
+    border-right : 1px solid gray;
+    text-shadow : 0 -1px -1px rgba(0, 0, 0, 6);
+}
+#menu ul li a:hover{
+    color : white;
+    background : grey;
+}
+/*pengaturan running text*/
+#runningtext{
+    width : 100%;
+    height : 25px;
+    padding-top : 7px;
+    margin : 5px 0 5px 0;
+    background-color : black;
+    color : white;
+    position : relative;
+}
+
+#sidebar {
+    padding : 5px;
+    width : 27%;
+    background-color :white;
+    position : relative;
+    float : right;
+
+/*pengaturan agar terdapat garis putus putus*/
+    border-style : dotted;
+    border-width : 1px;
+}
+
+/*pengaturan widget sidebar*/
+.widged{
+    width : 99%;
+    background-bottom : 5px;
+    background : white;
+    border-top : 1px solid white;
+    border-bottom : 1px solid white;
+    border-right : 1px solid white;
+    border-left : 1px solid white;
+    font-size : 100%;
+    margin : 0px 0px 5px 0px;
+}
+
+/*pengaturan ukuran iklan dengan gambar pada widget*/
+.gambariklan {
+    width : 99%;
+    height : 150px;
+}
+
+/*pengaturan huruf judul widget*/
+.judulwidget {
+    background : lightseagreen;
+    padding : 5px 10px 5px 10px;
+    margin : 0px 0px 0px 0px;
+    text-align : center;
+    color : white;
+    font-weight :  bold;
+    font-size : 15px;
+    margin-bottom : 5px;
+}
+.widget ul{
+    margin : 0px 0px 0px 0px;
+    padding : 0px 0px 0px 0px;
+    list-style-type : none;
+}
+.widget li {
+    padding : 0px 0px 0px 0px;   /*top right bottom left*/
+    background-position : left;
+    background-repeat : no-repeat;
+    color : grey
+}
+.widged li a{
+    color : black;
+    border-bottom : 1px dotted black;
+    text-decoration : none;
+    display : block;
+    margin-bottom : 5px;
+    padding : 4px 5px 3px 10px;
+}
+.widget li a:hover {
+    color : yellow;
+}
+/* pengaturan isi postingan*/
+#isi {
+    padding : 5px;
+    width : 70%;
+    height : auto;
+    background-color : white;
+    margin-top : 5px;
+}
+.isipostingan {
+    background-color : white;
+    width : 98%;
+    height : 150px;
+    margin-bottom : 5px;
+    padding : 5px;
+}
+.gambardepan {
+    float : left;
+    height : 140px;
+    width : 150px;
+    margin-right : 5px;
+    margin-top : 5px;
+    padding : 1px;
+    border : 1px solid white;
+}
+.isipostingan h2{
+    font-size : 20px;
+    font-weight : bold;
+    color : black;
+    margin-top : 4px;
+    margin-bottom : 3px;
+}
+.isipostingan h2{
+    text-decoration : none;
+}
+.isipostingan:hover {
+    color : blue;
+}
+/* pengaturan untuk footer */
+#footer {
+    width : 100%;
+    height : 50px;
+    margin-top : 5px;
+    padding-top : 30;
+    background-color :lightseagreen;
+    color : white;
+    font-size : 12pt;
+    text-align : center;
+    position : relative;
+    clear : both; 
+}
